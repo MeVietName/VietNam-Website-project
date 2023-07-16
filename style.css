@@ -3,13 +3,14 @@ body {
     background-color: #222222;
 }
 
-.top {
+.top-banner {
     padding-left: 15%;
     border-style: solid;
     border-left: #222222;
     border-right: #222222;
     border-top: #222222;
-    font-size: 19px;
+    font-size: 14px;
     border-bottom-color: #393939;
     color: #ffffffbf;
+    
 }
