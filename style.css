@@ -2,6 +2,8 @@ body {
     font-family: 'Noto Sans', sans-serif;
     background-color: #111217;
     color: #ffffffbf;
+    margin: 0;
+    padding: 0;
 }
 
 .top-banner{
@@ -11,7 +13,7 @@ body {
     border-right: none;
     border-top: none;
     border-bottom-color: rgba(57, 57, 57, 0.109);
-    align-items: center;
+    align-items: center
 }
 
 .vietnam-tittle{
@@ -31,15 +33,12 @@ body {
     height: 40px;
     width: 120px;
     float: left;
+    margin: auto;
 }
 .btn1:hover, .btn2:hover, .btn3:hover, .btn4:hover, .btn5:hover, .btn6:hover{
   transform: translateY(-2px);
   }
 
-body{
-    margin: 0;
-    padding: 0;
-  }
 
 .website-presentation{
     padding-top: 15px;
@@ -48,45 +47,46 @@ body{
 
 
 .dropbtn {
-    margin-left: 500%;
-    background-color: #111217;
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-  }
+  background-color: #111217;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
   
-  /* The container <div> - needed to position the dropdown content */
-  .dropdown {
-    
-    position: relative;
-    display: inline-block;
-  }
-  
-  /* Dropdown Content (Hidden by Default) */
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f1f1f1;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-    margin-left: 500%;
-  }
-  
-  /* Links inside the dropdown */
-  .dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-  }
-  
-  /* Change color of dropdown links on hover */
-  .dropdown-content a:hover {background-color: #ddd;}
-  
-  /* Show the dropdown menu on hover */
-  .dropdown:hover .dropdown-content {display: block;}
-  
-  /* Change the background color of the dropdown button when the dropdown content is shown */
-  .dropdown:hover .dropbtn {background-color: #3e8e41;}
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #111217;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  margin-left: 500%;
+  border: solid;
+  border-color: #1f2128;
+  border-radius: 7px;
+}
+
+.dropdown-content a {
+  color: rgb(255, 255, 255);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  border-radius: 6px;
+}
+
+.dropdown-content a:hover {background-color: #ffffff29;
+}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {
+  background-color: #1f2128;
+border-radius: 7px;
+}
