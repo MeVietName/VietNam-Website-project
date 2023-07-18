@@ -6,7 +6,7 @@ body {
     padding: 0;
 }
 
-.top-banner{
+.top-banner {
     display: flex;
     border-style: solid;
     border-left: none;
@@ -16,14 +16,14 @@ body {
     align-items: center
 }
 
-.vietnam-tittle{
+.vietnam-tittle {
     color: #ffffffbf;
     padding-right: 10%;
     margin-left: 15%;
     font-size: 18px;
 }
 
-.btn1, .btn2, .btn3, .btn4, .btn5, .btn6{
+.btn1, .btn2, .btn3, .btn4, .btn5, .btn6 {
     
     color: #ffffffbf;
     background-color: #111217;
@@ -35,12 +35,12 @@ body {
     float: left;
     margin: auto;
 }
-.btn1:hover, .btn2:hover, .btn3:hover, .btn4:hover, .btn5:hover, .btn6:hover{
+.btn1:hover, .btn2:hover, .btn3:hover, .btn4:hover, .btn5:hover, .btn6:hover {
   transform: translateY(-2px);
   }
 
 
-.website-presentation{
+.website-presentation {
     padding-top: 15px;
     text-align: center;
 }
@@ -67,7 +67,6 @@ body {
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
-  margin-left: 500%;
   border: solid;
   border-color: #1f2128;
   border-radius: 7px;
