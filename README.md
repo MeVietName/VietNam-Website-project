@@ -1,6 +1,4 @@
 
-https://mevietname.github.io/Discover-VietNam.github.io/
-
 
 To do list :
 
